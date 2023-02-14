@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+.navbar 
+{
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    padding: 35px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+.navbar .logo 
+{
+    color: white;
+    font-size: 25px;
+}
+
+.navbar ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a 
+{
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover 
+{
+    color: #609EA2;
+}
+
+.navbar.sticky 
+{
+    padding: 10px 100px;
+    background: linear-gradient(to right, #609EA2, #C92C6D);
+}
+
+/* SHOWCASE */
+
+.showcase 
+{
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.showcase-text 
+{
+    max-width: 800px;
+    padding-top: 250px;
+    padding-left: 120px;
+    color: white;
+}
+
+.showcase-text .text-1 
+{
+    font-size: 27px;
+}
+
+.showcase-text .text-2 
+{
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.showcase-text .text-3 
+{
+    font-size: 40px;
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.showcase-text .text-3 span 
+{
+    color: #C92C6D;
+}
+
+
+.showcase-img 
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+    overflow: hidden;
+}
+
+.btn-md 
+{
+    display: inline-block;
+    background: #609EA2;
+    color: #EEEEEE;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px 36px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 2px solid #EEEEEE;
+    transition: all 0.2s ease;
+}
+
+.btn-md:hover 
+{
+    color: #C92C6D;
+    background: none;
+}
+
+.container 
+{
+    max-width: 1300px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+.text-center 
+{
+    text-align: center;
+}
+
+.m-heading 
+{
+    font-size: 32px;
+    margin-bottom: 12px;
+    color: #C92C6D;
+}
+
+.title::before 
+{
+    content: '';
+    background: #C92C6D;
+    height: 2px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    transform: translateY(44px);
+}
+
+.title::after 
+{
+    content: '';
+    background: #C92C6D;
+    height: 7px;
+    width: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(1px);
+}
+
+/* ABOUT */
+#about 
+{
+    background: #000;
+}
+
+.about .title::before 
+{
+    background: #C92C6D;
+}
+
+.about .title::after 
+{
+    background: #C92C6D;
+}
+
+.about h1 
+{
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 80px;
+    transform: translateY(20px);
+    opacity: 0.1;
+    padding-top: -20px;
+}
+
+.about h5 
+{
+    font-weight: 700px;
+    transform: translateY(-65px);
+}
+
+.about .about-content .column 
+{
+    margin-top: 40px;
+}
+
+.about .about-content,
+.services .service-content,
+.skills .skill-content 
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-60px);
+}
+
+.about .about-content .left 
+{
+    width: 55%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.about .about-content .left img 
+{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about .about-content .right 
+{
+    width: 45%;
+    color: #EEEEEE;
+}
+
+.about .about-content .right .text 
+{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right p 
+{
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.about .about-content .right .text span 
+{
+    color: #609EA2;
+}
+
+.about .about-content .right .table 
+{
+    width: 500px;
+    padding: 10px 0;
+    margin-left: 0;
+}
+
+.about .about-content .right .table td
+{
+    padding: 10px;
+}
+
+#services 
+{
+    color: #EEEEEE;
+    background-color: #070800;
+}
+
+.services h5 
+{
+    font-weight: 700;
+    color: #C92C6D;
+    transform: translateY(-65px);
+    text-align: center;
+}
+
+.services h1 
+{
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 80px;
+    transform: translateY(23px);
+    opacity: 0.1;
+    padding-top: -20px;
+}
+
+.services .service-content .main 
+{
+    width: calc(30% - 20px);
+    min-height: 450px;
+    text-align: center; 
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.service 
+{
+    background: #070800;
+    padding: 30px;
+    border-radius: 10px;
+    bottom: 0;
+    z-index: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px -5px #332C39;
+    transition: transform 0.8s;
+}
+
+.service-logo i 
+{
+    color: #609EA2;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.service h4 
+{
+    height: 20px;
+    width: 80%;
+    background: #070800;
+    margin: 30px auto;
+    position: relative;
+}
+
+.service h4::after 
+{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, #070800 , #609EA2);
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: -1;
+}
+
+.service h4::before 
+{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, #C92C6D, #070800);
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+.shadowone 
+{
+    height: 200px;
+    width: 80%;
+    background: #070800;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 10%;
+    z-index: -1;
+    box-shadow: 0 0 20px -15px #070800;
+}
+
+.shadowtwo 
+{
+    height: 200px;
+    width: 64%;
+    background: #070800;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 18%;
+    z-index: -2;
+}
+
+.main:hover .service 
+{
+    transform: translateY(-50px);
+}
+
+.main:hover .shadowone 
+{
+    transform: translateY(-25px);
+}
+
+#skills
+{
+    background: #000;
+}
+
+.skills h1 
+{
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 80px;
+    transform: translateY(20px);
+    opacity: 0.1;
+    padding-top: -20px;
+}
+
+.skills h5 
+{
+    font-weight: 700;
+    transform: translateY(-65px);
+}
+
+.skills .title::before 
+{
+    background: #C92C6D;
+}
+
+.skills .title::after 
+{
+    background: #C92C6D;
+}
+
+.skills .skill-content .column-left 
+{
+    margin-top: 40px;
+    width: calc(50% - 50px);
+}
+
+.skills .skill-content .column-left .text 
+{
+    font-size: 27px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #609EA2;
+}
+
+.skills .skill-content .column-left p
+{
+    color: #EEEEEE;
+    text-align: justify;
+    line-height: 1.4;
+    padding-top: 15px;
+}
+
+.skills .skill-content .column-left a
+{
+    display: inline-block;
+    background: #609EA2;
+    color: #07080B;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #EEEEEE;
+    transition: all 0.3s ease;
+}
+
+.skills .skill-content .column-left a:hover 
+{
+    color: #C92C6D;
+    background: none;
+}
+
+.skills .skill-content .column-right .bars{
+    margin-bottom: 20px;
+}
+.skills .skill-content .column-right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+    color: #EEEEEE;
+}
+.skills .skill-content .column-right span{ 
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .skill-content .column-right .line{
+    height: 2px;
+    width: 100%;
+    background: #EEEEEE;
+    position: relative;
+}
+
+.skills .skill-content .column-right .line::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #C92C6D;
+}
+
+.skills .skill-content .column-right .ps::before{
+    width: 65%;
+}
+.skills .skill-content .column-right .mg::before{
+    width: 80%;
+}
+.skills .skill-content .column-right .axd::before{
+    width: 50%;
+}
+.skills .skill-content .column-right .uxd::before{
+    width: 90%;
+}
+.skills .skill-content .column-right .html::before{
+    width: 99%;
+}
+.skills .skill-content .column-right .dm::before{
+    width: 56%;
+}
