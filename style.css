@@ -25,7 +25,11 @@
 .navbar .logo 
 {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
+}
+
+.navbar .logo span {
+    color: #C92C6D;
 }
 
 .navbar ul li 
