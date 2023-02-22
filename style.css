@@ -255,23 +255,8 @@
     background-color: #070800;
 }
 
-.services h5 
-{
-    font-weight: 700;
-    color: #C92C6D;
-    transform: translateY(-65px);
-    text-align: center;
-}
 
-.services h1 
-{
-    text-align: center;
-    color: #EEEEEE;
-    font-size: 80px;
-    transform: translateY(23px);
-    opacity: 0.1;
-    padding-top: -20px;
-}
+
 
 .services .service-content .main 
 {
@@ -281,6 +266,7 @@
     border-radius: 5px;
     position: relative;
     cursor: pointer;
+    margin-top: 280px;
 }
 
 .service 
