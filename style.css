@@ -180,40 +180,10 @@
 }
 
 /* ABOUT */
-#about 
-{
-    background: #000;
-}
-
-.about .title::before 
-{
-    background: #C92C6D;
-}
-
-.about .title::after 
-{
-    background: #C92C6D;
-}
-
-.about h1 
-{
-    color: #EEEEEE;
-    text-align: center;
-    font-size: 80px;
-    transform: translateY(20px);
-    opacity: 0.1;
-    padding-top: -20px;
-}
-
-.about h5 
-{
-    font-weight: 700px;
-    transform: translateY(-65px);
-}
 
 .about .about-content .column 
 {
-    margin-top: 40px;
+    margin-top: 150px;
 }
 
 .about .about-content,
@@ -253,12 +223,13 @@
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
+    margin-top: 45px;
 }
 
 .about .about-content .right p 
 {
     text-align: justify;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 .about .about-content .right .text span 
@@ -275,7 +246,7 @@
 
 .about .about-content .right .table td
 {
-    padding: 10px;
+    padding: 7px;
 }
 
 #services 
@@ -336,7 +307,7 @@
     height: 20px;
     width: 80%;
     background: #070800;
-    margin: 30px auto;
+    margin: 80px auto;
     position: relative;
 }
 
@@ -505,20 +476,20 @@
 }
 
 .skills .skill-content .column-right .ps::before{
-    width: 65%;
+    width: 3%;
 }
 .skills .skill-content .column-right .mg::before{
-    width: 80%;
+    width: 3%;
 }
 .skills .skill-content .column-right .axd::before{
-    width: 50%;
+    width: 3%;
 }
 .skills .skill-content .column-right .uxd::before{
-    width: 90%;
+    width: 3%;
 }
 .skills .skill-content .column-right .html::before{
-    width: 99%;
+    width: 3%;
 }
 .skills .skill-content .column-right .dm::before{
-    width: 56%;
+    width: 3%;
 }
