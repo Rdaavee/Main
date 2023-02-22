@@ -50,14 +50,9 @@
 
 .navbar ul li a:hover 
 {
-    color: #609EA2;
+    color: #C92C6D;
 }
 
-.navbar.sticky 
-{
-    padding: 10px 100px;
-    background: linear-gradient(to right, #609EA2, #C92C6D);
-}
 
 /* SHOWCASE */
 
@@ -155,30 +150,6 @@
     color: #C92C6D;
 }
 
-.title::before 
-{
-    content: '';
-    background: #C92C6D;
-    height: 2px;
-    width: 200px;
-    margin: 0 auto;
-    display: block;
-    transform: translateY(44px);
-}
-
-.title::after 
-{
-    content: '';
-    background: #C92C6D;
-    height: 7px;
-    width: 65px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform: translateY(1px);
-}
-
 /* ABOUT */
 
 .about .about-content .column 
@@ -254,9 +225,6 @@
     color: #EEEEEE;
     background-color: #070800;
 }
-
-
-
 
 .services .service-content .main 
 {
