@@ -118,8 +118,8 @@
     color: #EEEEEE;
     font-size: 25px;
     font-weight: bold;
-    padding: 8px 36px;
-    margin-top: 20px;
+    padding: 5px 20px;
+    margin-top: 10px;
     border-radius: 50px;
     border: 2px solid #EEEEEE;
     transition: all 0.2s ease;
@@ -180,27 +180,30 @@
     height: 450px;
     width: 450px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 3%;
+    cursor: pointer;
+    margin-top: 90px;
 }
 
 .about .about-content .right 
 {
-    width: 45%;
+    width: 35%;
     color: #EEEEEE;
 }
 
 .about .about-content .right .text 
 {
-    font-size: 25px;
+    font-size: 17px;
     font-weight: 700;
     margin-bottom: 10px;
-    margin-top: 45px;
+    margin-top: 20px;
 }
 
 .about .about-content .right p 
 {
     text-align: justify;
-    line-height: 1.1;
+    line-height: 1.5;
+    font-size: 12px;
 }
 
 .about .about-content .right .text span 
@@ -210,14 +213,15 @@
 
 .about .about-content .right .table 
 {
-    width: 500px;
-    padding: 10px 0;
+    width: 300px;
+    padding: 8px 0;
     margin-left: 0;
+    font-size: 12px;
 }
 
 .about .about-content .right .table td
 {
-    padding: 7px;
+    padding: 2px;
 }
 
 #services 
